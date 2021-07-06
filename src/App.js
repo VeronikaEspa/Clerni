@@ -1,17 +1,18 @@
 import './App.css';
-import GlobalStyles from './globalStyles';
-import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import GlobalStyles from './globalStyles';
+// import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Index from './pages/index'
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
       <GlobalStyles/>
       <Switch>
-        {/* <Route path="/" exact component={}/> */}
-        <Route/>
+        <Route path="/" exact component={index}/>
       </Switch>
-      </Router>
+      </Router> */}
+      <Index/>
     </div>
   );
 }
