@@ -8,8 +8,8 @@ function App() {
       <Router>
       <GlobalStyles/>
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/contact" exact component={Contact}/>
+        {/* <Route path="/" exact component={}/> */}
+        <Route/>
       </Switch>
       </Router>
     </div>
