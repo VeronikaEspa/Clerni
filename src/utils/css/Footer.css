@@ -1,0 +1,11 @@
+
+.piedePagina{
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+    background-color: rgb(41, 38, 38);
+    color: rgb(233, 229, 229);
+    font-family: roboto-medium;
+    font-size: 13px;
+    margin-top: 90%;
+}

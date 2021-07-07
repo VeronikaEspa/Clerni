@@ -1,10 +1,16 @@
 import React from 'react'
-import Introduccion from '../../components/Introduccion.jsx'
+import { Menu_cler, Footer,Introduccion} from '../../components/export.js'
 const Index = () => {
     return(
         <>
-        <Introduccion/>
+        <Menu_cler />
+
+        <Introduccion />
+
+        <Footer />
+
         </>
     )
 }
+
 export default Index;
