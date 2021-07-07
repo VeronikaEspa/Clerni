@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Clerni/static/css/main.b1f628ab.chunk.css",
+    "main.js": "/Clerni/static/js/main.751d9793.chunk.js",
+    "main.js.map": "/Clerni/static/js/main.751d9793.chunk.js.map",
+    "runtime-main.js": "/Clerni/static/js/runtime-main.8b3c745f.js",
+    "runtime-main.js.map": "/Clerni/static/js/runtime-main.8b3c745f.js.map",
+    "static/js/2.090ca096.chunk.js": "/Clerni/static/js/2.090ca096.chunk.js",
+    "static/js/2.090ca096.chunk.js.map": "/Clerni/static/js/2.090ca096.chunk.js.map",
+    "index.html": "/Clerni/index.html",
+    "static/css/main.b1f628ab.chunk.css.map": "/Clerni/static/css/main.b1f628ab.chunk.css.map",
+    "static/js/2.090ca096.chunk.js.LICENSE.txt": "/Clerni/static/js/2.090ca096.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b3c745f.js",
+    "static/js/2.090ca096.chunk.js",
+    "static/css/main.b1f628ab.chunk.css",
+    "static/js/main.751d9793.chunk.js"
+  ]
+}
