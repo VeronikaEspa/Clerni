@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       <Router>
       <Switch>
-        <Route path="/index" exact component={Index}/>
+        <Route path="/" exact component={Index}/>
         <Route path="/beneficios" exact component={beneficios}/>   
       </Switch>
       </Router>
     </div>
-  );
+  ); 
 }
 
 export default App;
