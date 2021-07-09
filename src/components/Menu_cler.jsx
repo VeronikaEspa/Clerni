@@ -17,7 +17,7 @@ function Menu_cler(){
                             <button className="link" type="button">Beneficios</button>
                         </Link>
                         <button type="button">Material de apoyo</button>
-                        <button type="button">Iniciar Sesión</button>
+                        <button className="iniciarSesion" type="button">Iniciar Sesión</button>
                 </div>
             </div>
         </>

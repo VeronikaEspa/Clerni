@@ -69,23 +69,27 @@ button{
     background: none;
     border: none;
     cursor: pointer;
-}
-a{
     color: #FBFAFA;
     font-family:roboto-medium;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration-line: none
+}
+button:hover{
+    text-decoration: underline 2px #85CAF1;
 }
 .iniciarSesion{
     color: #FFB932;
-    font-size: 24px;
+    font-size: 19px;
     font-family: roboto-medium;
+}
+.iniciarSesion:hover{
+    text-decoration: underline 2px #FFB932;
 }
 /* Agregar la imagen del logo y cambiar tamaño */
 .logoMenu{
     margin-top: 1%;
     margin-right: 0%;
-    width: 17%;
+    width: 14%;
 }
 /*colores*/
 /*COLORES DEFINIDOS*/

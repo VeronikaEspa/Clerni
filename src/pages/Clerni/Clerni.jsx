@@ -1,11 +1,10 @@
 import React from 'react'
-import { Menu_cler, Footer,Introduccion} from '../../components'
+import { Menu_cler ,Introduccion} from '../../components/index'
 const Clerni = () => {
     return(
         <>
         <Menu_cler />
         <Introduccion />
-        <Footer />
         </>
     )
 }

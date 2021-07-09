@@ -1,3 +1,567 @@
-.Container_Cabecera{
-    background-color: wheat;
+/*Cambios generales*/
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    font-family: "roboto-regular";
+}
+/*Contenedor general*/
+.contenedorGeneral{
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------Contenedor de la cabecera--------------------------*/
+.contenedorInicio{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    color: whitesmoke;
+}
+.cabecera_olas {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.cabecera_olas img{
+    width: 100%;
+}
+/*logo*/
+.logo{
+    margin: 20px;
+    margin-right: 200px;
+}
+.logo img {
+    width: 500px;
+    height: 200px;
+}
+.decidelo {
+    display: block;
+    font-size: 75px;
+    line-height: 10px;
+}
+
+.empieza {
+    width: 250px;
+    height: 70px;
+    background-color: #85CAF1;
+    border-radius: 200px;
+}
+
+/*personas*/
+.personas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.personas img{
+    width: 90%;
+}
+/*---------------------------Contenedor de la globo--------------------------*/
+/*video*/
+.contenedorVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin: 20%;
+}
+.frase{
+    font-weight: bold;
+    text-align: right;
+    font-size: 40px;
+}
+/*globo*/
+.globo {
+    display: flex;
+    width: 70%;
+    position: absolute;
+    z-index: 0;
+    justify-content: center;
+}
+.globo img{
+    width: 70%;
+}
+.video{
+    width: 600px;
+    height: 450px;
+    background-color: coral;
+    margin-left: 20%;
+    border-radius: 5%;
+}
+/*------------------------objetivo-----------------------*/
+/*.tituloNuestoObj{
+    padding: 3%;
+}
+.iimaRepreObjetivo{
+    opacity: 0;
+    display: none;
+    position: Absolute;
+}
+.NuestroObjetivo{
+    margin: 5%;
+    margin-top: 14%;
+}
+.textoNuestroObje{
+    font-family: roboto-medium;
+    font-size: 45px;
+    margin: 0;
+}
+.nu1{
+    margin-right: 15%;
+}
+.nu2{
+    margin-left: 15%;
+}
+.tituloNuestoObj:hover{
+    opacity: 0;
+}
+.tituloNuestoObj:hover ~ img{
+    opacity: 1;
+    transition: 3s;
+    display: inline-flex;
+    position: inherit;
+}*/
+/*-----------------------Contenedor final----------------*/
+/*puntos*/
+.puntos{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.puntos img{
+    width: 100%;
+}
+/*estadisticas*/
+.num{
+    margin: 5%;
+}
+.numeros{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    color: #85CAF1;
+    margin-top: 25%;
+}
+/*Contenedor opiniones */
+.contenedorTarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px black;
+    position: absolute;
+    z-index: 3;
+
+}
+/*Opiniones*/
+.tarjetas img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.tarjetas{
+    background-color: whitesmoke;
+    align-items: center;
+    margin: 5%;
+    box-shadow: 15px 15px 0px 3px #85CAF1;
+    padding: 3%;
+}
+.opinion{
+    font-size: 25px;
+}
+.abajo{
+    margin-top: 40%;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.olaFinal {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.olaFinal img{
+    width: 100%;
+}
+/*---------------------------RESPONSIVE-------------------*/
+/*---------750px a 950px-------------*/
+@media screen and (min-width:750px) and (max-width:950px){
+    /*Cabecera*/
+    .contenedorInicio{
+        padding: 20px;
+    }
+    .logo img{
+        width: 200px;
+        height: 90px;
+        margin-right: 10px;
+    }
+    .decidelo{
+        font-size: 20px;
+    }
+    .empieza{
+        width: 150px;
+        height: 40px;
+    }
+    .frase {
+        font-size: 20px;
+    }
+    /*Contenedor estudiantes*/
+    .abajo {
+        margin-top: 37%;
+    }
+    .numeros {
+        font-size: 25px;
+    }
+    .opinion {
+        font-size: 11px;
+    }
+    .video{
+        width: 250px;
+        height: 175px;
+        margin-left: 25%;
+    }
+}
+/*---------950px a 1300px-------------*/
+@media screen and (min-width:951px) and (max-width:1300px){
+        /*Cabecera*/
+        .contenedorInicio{
+            padding: 40px;
+        }
+        .logo img{
+            width: 300px;
+            height: 140px;
+            margin-right: 10px;
+        }
+        .decidelo{
+            font-size: 30px;
+        }
+        .empieza{
+            width: 200px;
+            height: 60px;
+        }
+        .frase {
+            font-size: 30px;
+        }
+        /*Tamaño video*/
+        .video{
+            width: 350px;
+            height: 250px;
+            margin-left: 25%;
+        }
+        /*Contenedor estudiantes*/
+        .abajo {
+            margin-top: 37%;
+        }
+        .numeros {
+            font-size: 30px;
+        }
+        .opinion {
+            font-size: 21px;
+        }
+
+}
+/*---------1301px a 1700px-------------*/
+@media screen and (min-width:1301px) and (max-width:1700px){
+    /*Cabecera*/
+    .contenedorInicio{
+        padding: 40px;
+    }
+    .logo img{
+        width: 400px;
+        height: 180px;
+        margin-right: 10px;
+    }
+    .decidelo{
+        font-size: 40px;
+    }
+    .empieza{
+        width: 300px;
+        height: 80px;
+    }
+    .frase {
+        font-size: 40px;
+    }
+    /*Tamaño video*/
+    .video{
+        width: 450px;
+        height: 350px;
+        margin-left: 25%;
+    }
+    /*Contenedor estudiantes*/
+    .abajo {
+        margin-top: 37%;
+    }
+    .numeros {
+        font-size: 40px;
+    }
+    .opinion {
+        font-size: 28px;
+    }
+}
+.tituloNuestoObj{
+    padding: 10%;
+}
+.iimaRepreObjetivo{
+    opacity: 0;
+    display: none;
+    position: Absolute;
+}
+.NuestroObjetivo{
+    margin: 5%;
+    margin-top: 20%;
+}
+.textoNuestroObje{
+    font-family: roboto-medium;
+    font-size: 45px;
+    margin: 0;
+}
+.nu1{
+    margin-right: 15%;
+}
+.nu2{
+    margin-left: 15%;
+}
+.tituloNuestoObj:hover{
+    opacity: 0;
+}
+.tituloNuestoObj:hover ~ img{
+    opacity: 1;
+    transition: 3s;
+    display: inline-flex;
+    position: inherit;
+}
+/*NUMERO DE ESTUDIANTES*/
+.valorEstudiantes{ /*Contenedor padre numero de estudiantes*/
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 15px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.columValores{ /*Contenedor hijo numero de estudiantes*/
+    flex-direction: column;
+}
+.holimargin{
+    margin-top: 21%;
+}
+.numeral{
+    font-size: 50px;
+    font-family: roboto-bold;
+    margin: 0;
+}
+.textoNumeral{
+    font-size: 25px;
+    font-family: poppins;
+    margin-top: 5%;
+}
+/*USUARIOS*/
+.OpinionesPerso{/*Contenedor padre tarjeta usuarios*/
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    row-gap: 15px;
+    padding-left: 6%;
+    font-family: roboto-light;
+    font-size: 20px;
+    
+}
+.person1 img, .person2 img, .person3 img{ /*Imagenes de las tarjetas usuarios*/
+    width: 100%;
+    border-radius: 20%;
+    
+}
+.person1, .person2, .person3{ /*Contenedor hijo tarjeta usuarios*/
+    background: #FBFAFA;
+    border: 2px solid #56B6EC;
+    box-shadow: 15px 15px 0px 0.5px #85CAF1;
+    text-align: justify;
+    padding: 10%;
+    width: 56%;
+}
+.person2{ /*Contenedor hijo tarjeta usuarios persona del medio*/
+    width: 60%;
+    font-size: 18px;
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ocultar{
+    opacity: 0;
+}
+.animar{
+    animation: aparecer 1.3s;
+}
+.parche{
+    display: none;
+}
+
+.personas_responsive{
+    display: none;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width:100px) and (max-width:770px) {
+    .parche_arriba{
+        display:flex;
+        width: 100%;
+        height:200px;
+        background-color: #0054AA;
+        position: absolute;
+    }
+    .personas_responsive{
+        display:flex;
+    }
+    .personas_responsive img{
+        width: 85%;
+    }
+    .display{
+        display: none;
+    }
+    .ola_superior_svg{
+        margin-top: 8%;
+    }
+    .texto_decidelo h1{
+        font-size: 150%;  
+    }
+    .primer_boton{
+        padding:3% 3.5%;
+        width: 45%;
+    }
+    .letra_boton button{
+        font-size: 120%;
+    }
+    .contenedor3{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-top: 25%;
+    }
+    /*------------------------TEXTO DENTRO DEL GLOBO-----------------------*/
+    .texto_video{
+        width: 45%;
+        margin-left: 25%;
+    }
+    .texto_video h1{
+        width: 80%;
+        font-size: 150%;
+       
+    }
+    .tamaño{
+        width: 40%;
+    }
+    .contenedor_video{
+        width: 55%;
+    }
+    .frase{
+        display: none;
+    }
+    
+    .video iframe{
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        right: 62%;
+        width: 35%;
+        height: 142%;
+    }
+    .texto_llamadas{
+        width: 96%;
+        height: auto;
+        justify-content: center;
+        padding-left: 4%;
+        margin-top: 62%;
+    }
+    .texto_llamadas h1{
+        font-size: 120%; 
+    }
+    /*---------------RESPONSIVE PARTE INFERIOR---------------------*/
+    .parteInferior_Total{
+        margin-top: 10%;
+    }
+    .contenidoDentro_Ola{
+        margin-top: 60px;
+        padding-top: 100px;
+    }
+    .textoNumeral{
+        font-size: 20px;
+    }
+    .OpinionesPerso{/*Contenedor padre tarjeta usuarios*/
+        grid-template-columns: 1fr;
+        font-size: 20px;
+        padding: 3%;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 20%;
+        background: transparent;
+        margin-top: 0;
+    }
+    .person1, .person2, .person3{
+        display: flex;
+        width: 55%;
+        height: 85%;
+        padding: 5%;
+    }
+    .person2{
+        width: 55%;
+        height: 90%;
+    }
+    .parche{
+        display: flex;
+        width: 100%;
+        margin-top:0%;
+    }
+    .parche2{
+        background: #0054AA;
+        width: 100%;
+        height:820px;
+        margin-top:40%;
+        margin-bottom: -20%;
+    }
+    
+}
+/*@media screen and (min-width:764px) and (max-width:1000px) {
+    .OpinionesPerso{
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+        font-size: 20px;
+        width: 30%;
+    }
+    .person1, .person2, .person3{
+        display: flex;
+    }
+}*/
+#piepagina_index{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 388%;
 }
