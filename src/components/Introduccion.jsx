@@ -11,4 +11,4 @@ const Introduccion = () => {
         </div>
     )
 }
-export default Introduccion
+export default Introduccion;

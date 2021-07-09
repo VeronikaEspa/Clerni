@@ -1,6 +1,6 @@
 import React from 'react'
 import { Menu_cler, Footer,Introduccion} from '../../components'
-const Index = () => {
+const Clerni = () => {
     return(
         <>
         <Menu_cler />
@@ -10,4 +10,4 @@ const Index = () => {
     )
 }
 
-export default Index;
+export default Clerni;

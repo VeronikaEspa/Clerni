@@ -9,15 +9,15 @@ function Menu_cler(){
             <div className="Menu">
                 <div className="menuHorizontal">
                     <img src={clerni} alt="menu"/>
-                        <Link to = "/index">
-                            <button className="links" type="button">Inicio</button>
+                        <Link to = "/Clerni">
+                            <button className="link" type="button">Inicio</button>
                         </Link>
-                        <button className="links" type="button">Metodologia</button>
+                        <button type="button">Metodologia</button>
                         <Link to = "/beneficios">
-                            <button className="links" type="button">Beneficios</button>
+                            <button className="link" type="button">Beneficios</button>
                         </Link>
-                        <button className="links" type="button">Material de apoyo</button>
-                        <button className="links" type="button">Iniciar Sesión</button>
+                        <button type="button">Material de apoyo</button>
+                        <button type="button">Iniciar Sesión</button>
                 </div>
             </div>
         </>
