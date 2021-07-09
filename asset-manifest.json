@@ -1,20 +1,41 @@
 {
   "files": {
-    "main.css": "/Clerni/static/css/main.b1f628ab.chunk.css",
-    "main.js": "/Clerni/static/js/main.751d9793.chunk.js",
-    "main.js.map": "/Clerni/static/js/main.751d9793.chunk.js.map",
+    "main.css": "/Clerni/static/css/main.f19bb55a.chunk.css",
+    "main.js": "/Clerni/static/js/main.bfb4d36e.chunk.js",
+    "main.js.map": "/Clerni/static/js/main.bfb4d36e.chunk.js.map",
     "runtime-main.js": "/Clerni/static/js/runtime-main.8b3c745f.js",
     "runtime-main.js.map": "/Clerni/static/js/runtime-main.8b3c745f.js.map",
-    "static/js/2.090ca096.chunk.js": "/Clerni/static/js/2.090ca096.chunk.js",
-    "static/js/2.090ca096.chunk.js.map": "/Clerni/static/js/2.090ca096.chunk.js.map",
+    "static/js/2.baa01cc3.chunk.js": "/Clerni/static/js/2.baa01cc3.chunk.js",
+    "static/js/2.baa01cc3.chunk.js.map": "/Clerni/static/js/2.baa01cc3.chunk.js.map",
     "index.html": "/Clerni/index.html",
-    "static/css/main.b1f628ab.chunk.css.map": "/Clerni/static/css/main.b1f628ab.chunk.css.map",
-    "static/js/2.090ca096.chunk.js.LICENSE.txt": "/Clerni/static/js/2.090ca096.chunk.js.LICENSE.txt"
+    "static/css/main.f19bb55a.chunk.css.map": "/Clerni/static/css/main.f19bb55a.chunk.css.map",
+    "static/js/2.baa01cc3.chunk.js.LICENSE.txt": "/Clerni/static/js/2.baa01cc3.chunk.js.LICENSE.txt",
+    "static/media/CLERNI.1f772613.svg": "/Clerni/static/media/CLERNI.1f772613.svg",
+    "static/media/Poppins-Bold.d43f2660.woff": "/Clerni/static/media/Poppins-Bold.d43f2660.woff",
+    "static/media/Roboto-Bold.42fd8ca1.woff": "/Clerni/static/media/Roboto-Bold.42fd8ca1.woff",
+    "static/media/Roboto-BoldItalic.ab60a69f.woff": "/Clerni/static/media/Roboto-BoldItalic.ab60a69f.woff",
+    "static/media/Roboto-LightItalic.462ab41b.woff": "/Clerni/static/media/Roboto-LightItalic.462ab41b.woff",
+    "static/media/Roboto-Medium.14484712.woff": "/Clerni/static/media/Roboto-Medium.14484712.woff",
+    "static/media/bancolombia.c0a2d906.jpg": "/Clerni/static/media/bancolombia.c0a2d906.jpg",
+    "static/media/celular_bancolombia.008e53fb.svg": "/Clerni/static/media/celular_bancolombia.008e53fb.svg",
+    "static/media/celular_nequi.452fb39e.svg": "/Clerni/static/media/celular_nequi.452fb39e.svg",
+    "static/media/celular_paypal.34fe141c.svg": "/Clerni/static/media/celular_paypal.34fe141c.svg",
+    "static/media/circulo_1.3d43cb1c.png": "/Clerni/static/media/circulo_1.3d43cb1c.png",
+    "static/media/circulo_2.f0e5a81b.png": "/Clerni/static/media/circulo_2.f0e5a81b.png",
+    "static/media/circulo_3.f61fecb6.png": "/Clerni/static/media/circulo_3.f61fecb6.png",
+    "static/media/circulo_4.5116394c.png": "/Clerni/static/media/circulo_4.5116394c.png",
+    "static/media/imagen_1.f7458953.png": "/Clerni/static/media/imagen_1.f7458953.png",
+    "static/media/imagen_2.6cc5af2a.png": "/Clerni/static/media/imagen_2.6cc5af2a.png",
+    "static/media/nequi.8fe37046.jpg": "/Clerni/static/media/nequi.8fe37046.jpg",
+    "static/media/pagos_gerald.2fae26fd.svg": "/Clerni/static/media/pagos_gerald.2fae26fd.svg",
+    "static/media/poppins.c14093ce.woff": "/Clerni/static/media/poppins.c14093ce.woff",
+    "static/media/prueba2_cel.b3c44eeb.svg": "/Clerni/static/media/prueba2_cel.b3c44eeb.svg",
+    "static/media/roboto_regular.8b74b2fb.woff": "/Clerni/static/media/roboto_regular.8b74b2fb.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.8b3c745f.js",
-    "static/js/2.090ca096.chunk.js",
-    "static/css/main.b1f628ab.chunk.css",
-    "static/js/main.751d9793.chunk.js"
+    "static/js/2.baa01cc3.chunk.js",
+    "static/css/main.f19bb55a.chunk.css",
+    "static/js/main.bfb4d36e.chunk.js"
   ]
 }
